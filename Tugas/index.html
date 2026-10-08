@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopList Pro - Daftar Belanja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Daftar Belanja</h2>
+        
+        <!-- Input Item & Tombol Tambah -->
+        <div class="input-group">
+            <input type="text" id="itemInput" placeholder="Ketik nama item daftar belanja...">
+            <button id="addBtn" onclick="tambahItem()">Tambah</button>
+        </div>
+
+        <!-- Tampilan Daftar -->
+        <ul id="shoppingList"></ul>
+
+        <!-- Tombol Hapus Semua -->
+        <button id="clearAllBtn" class="clear-btn" onclick="hapusSemua()">Hapus Semua</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
